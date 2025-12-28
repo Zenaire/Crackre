@@ -1,0 +1,112 @@
+:root{
+    --background : #000;
+    --text-color : #ffffff;
+    --secondary : #333;
+}
+
+#Files{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 200;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.title{
+    margin: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: var(--text-color);
+    text-decoration: var(--text-color);
+    text-decoration: underline;
+}
+
+.card{
+    background-color: var(--background);
+    border-radius: 10px;
+    display: flex;
+    width: 750px;
+    min-height: 150px;
+    align-items: center;
+}
+
+
+.card-text{
+    color: var(--text-color);
+    margin: 40px;
+    width: 750px;
+}
+
+.card-text h3{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.card-text p{
+    margin-bottom: 25px;
+}
+
+.card-text a{
+    color: var(--background);
+    background-color: var(--text-color);
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.card-text a:hover{
+    background-color: var(--secondary);
+    color: var(--text-color);
+}
+
+.card-img{
+    max-width: 25%;
+    margin: 25px;
+}
+
+#penutup{
+    background-color: var(--background);
+    color: var(--text-color);
+    padding: 25px;
+}
+
+#penutup .rec{
+    margin:50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+#penutup h1{
+    width: 500px;
+}
+#penutup .rec .downloader{
+    width: 400px;
+}
+
+#penutup h3{
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+#penutup p{
+    margin-bottom: 15px;
+}
+
+#penutup a{
+    text-decoration: none;
+    color: var(--background);
+    background-color: var(--text-color)  ;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#penutup a:hover{
+    color:var(--text-color);
+    background-color: #333;
+}
