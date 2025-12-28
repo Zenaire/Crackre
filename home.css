@@ -1,0 +1,40 @@
+#About p{
+    margin-top: 15px;
+}
+
+#cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cards .card{
+    background-color: var(--background);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+
+#cards .card-text{
+    color: var(--text-color);
+    margin: 40px;
+    width: 100%;
+}
+
+#cards .card-text a{
+    color: var(--background);
+    background-color: var(--text-color);
+    margin-left: 30%;
+    font-size: 25px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#cards .card-text a:hover{
+    background-color: var(--secondary);
+    color: var(--text-color);
+}
